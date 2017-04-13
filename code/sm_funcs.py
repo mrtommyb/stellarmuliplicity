@@ -53,6 +53,17 @@ def get_transit_depth(Prad, rstar_solar):
 def get_rprs(Prad, rstar_solar):
     return (Prad*0.009155) / rstar_solar
 
+def flat_select(nselect=1):
+
+    rrange = [0.01,10]
+    prange = [0.3,500]
+
+    radius = random.uniform(rrange[0], rrange[1], size=nselect)
+    period = random.uniform(prange[0], prange[1], size=nselect)
+
+    return radius, period
+
+
 def Dressing15_select(nselect=1):
     """
 
