@@ -1,6 +1,8 @@
 # it is not my data so for now I will not add to repo
 data/
 
+*.pyc
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
